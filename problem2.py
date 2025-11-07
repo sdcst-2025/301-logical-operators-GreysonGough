@@ -37,8 +37,6 @@ b = float(b)
 
 if a >= b and a % b == 0:
     print(f"{b} is a factor of {a}")
-elif a >= b and a % b == 0:
-    print(f"{b} is not a factor of {a}")
 elif b >= a and b % a  == 0:
     print(f"{a} is a factor of {b}")
 else:
