@@ -24,3 +24,15 @@ Enter a number: 5
 Enter a number: 4.0
 4.0 is a positive integer
 """
+
+a = input("enter a number")
+a = float(a)
+
+a2 = round(a, 0)
+
+if a < 0:
+    print(f"{a} is not a positive interger")
+elif a - a2 !=0:
+    print(f"{a} is not a positive interger")
+else:
+    print(f"{a} is a positive interger.")

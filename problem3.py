@@ -30,3 +30,23 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+
+a = input("an interger")
+b = input("an interger")
+c = input("an interger")
+
+a = int(a)
+b = int(b)
+c = int(c)
+
+big = max(a, b, c)
+tiny = min (a,b,c)
+middle = (a + b + c) - big - tiny
+if  middle**2 + tiny**2 == big**2:
+    print(f"{a}, {b} and {c} form a pythagorean triple")
+else:
+    print(f"{a}, {b} and {c} dont form a pytagorean triple")
+
+
+
+

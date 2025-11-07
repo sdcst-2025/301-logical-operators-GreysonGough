@@ -31,3 +31,17 @@ Enter a number: 8
 Enter a number: 64
 64 is both a perfect square and divisible by 2.
 """
+
+number = input("enter:")
+number = int(number)
+num_root = (number **0.5) 
+num_squared = (num_root**2)
+
+if num_squared == number  and number % 2 == 0:
+    print(f"{number} is a perfect square and divisible by 2")
+elif num_squared  == number:
+    print(f"{number} is only a perfect square")
+elif number %2 == 0:
+    print(f"{number} divisble by 2")
+else:
+    print("Not divisible by 2 or a perfect square.")

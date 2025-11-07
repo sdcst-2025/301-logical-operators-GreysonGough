@@ -26,3 +26,20 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+
+
+a = input("an interger")
+b = input("an interger")
+
+a = float(a)
+b = float(b)
+
+
+if a >= b and a % b == 0:
+    print(f"{b} is a factor of {a}")
+elif a >= b and a % b == 0:
+    print(f"{b} is not a factor of {a}")
+elif b >= a and b % a  == 0:
+    print(f"{a} is a factor of {b}")
+else:
+    print(f"{a} is not a factor of {25} ")
