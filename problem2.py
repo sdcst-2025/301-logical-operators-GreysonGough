@@ -40,4 +40,4 @@ if a >= b and a % b == 0:
 elif b >= a and b % a  == 0:
     print(f"{a} is a factor of {b}")
 else:
-    print(f"{a} is not a factor of {25} ")
+    print(f"{a} is not a factor of {b} ")
